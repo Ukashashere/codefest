@@ -1,0 +1,43 @@
+#file-upload-form {
+    margin: 20px;
+  }
+  
+  #fileInput {
+    margin-bottom: 10px;
+  }
+  
+  #addMore {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #uploadBtn {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #addMore:hover, #uploadBtn:hover {
+    opacity: 0.8;
+  }
+  
+  #file-list {
+    margin: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f2f2f2;
+  }

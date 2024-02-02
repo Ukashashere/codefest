@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File Upload Interface</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="file-upload-form">
+  <form id="uploadForm">
+    <input type="file" id="fileInput" multiple />
+    <button type="button" id="addMore" onclick="addFiles()">Add More +</button>
+    <button type="button" id="uploadBtn" onclick="uploadFiles()">Upload</button>
+  </form>
+</div>
+
+<div id="file-list">
+  <h2>Selected Files :</h2>
+  <ul id="listOfFiles">
+    <!-- List of selected files will be displayed here -->
+  </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
